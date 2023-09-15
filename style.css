@@ -2308,7 +2308,7 @@ footer .call h6 span {
 
 
     .main-17 .form-control {
-        width: 65%;
+        width: 62%;
 
     }
 
@@ -2316,11 +2316,10 @@ footer .call h6 span {
         width: 100%;
         margin: auto;
     }
-
-    .main-17 .btn {
-
-        font-size: 14px;
+    .main-17 .search .btn {
+        font-size: 15px;
         padding: 8px 15px;
+        transition: .3s;
     }
     
 }
