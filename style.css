@@ -18,7 +18,7 @@
     top: 0px;
     width: 100%;
     transition: .3s;
-    background-color: rgba(255, 255, 255, 0.403);
+    background-color: rgba(255, 255, 255, 0.905);
 }
 
 .navbar-brand {
@@ -2077,6 +2077,9 @@ footer .call h6 span {
 
 
 @media(max-width:580px){
+    .main-6 .nav-link{
+        margin-left: 10px;
+    }
     .main-13 .card{
         margin-bottom: 10px;
     }
@@ -2088,10 +2091,20 @@ footer .call h6 span {
     }
 }
 /* ///////////////// */
-@media(max-width:450px) {
+@media(max-width:550px) {
     .main-13 .card .svgDIV {
         position: absolute;
-        top: 313px;
+        top: 400px;
+        left: 0px;
+        right: 0px;
+    }
+}
+
+/* ///////////////// */
+@media(max-width:500px) {
+    .main-13 .card .svgDIV {
+        position: absolute;
+        top: 370px;
         left: 0px;
         right: 0px;
     }
@@ -2107,7 +2120,24 @@ footer .call h6 span {
         margin: auto;
     }
 }
-
+/* ///////// */
+@media(max-width:450px) {
+    .main-13 .card .svgDIV {
+        position: absolute;
+        top: 333px;
+        left: 0px;
+        right: 0px;
+    }
+}
+/* /////// */
+@media(max-width:425px) {
+    .main-13 .card .svgDIV {
+        position: absolute;
+        top: 313px;
+        left: 0px;
+        right: 0px;
+    }
+}
 
 /* /////////////// */
 @media(max-width:380px) {
