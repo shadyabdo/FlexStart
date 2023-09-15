@@ -2014,6 +2014,9 @@ footer .call h6 span {
     }
 
 
+    
+  
+
     .main-13 {
         height: auto;
         padding-bottom: 20px;
@@ -2050,7 +2053,7 @@ footer .call h6 span {
     }
     .main-13 .card .svgDIV {
         position: absolute;
-        top: 360px;
+        top: 405px;
         left: 0px;
         right: 0px;
     }
@@ -2072,6 +2075,19 @@ footer .call h6 span {
 }
 /* ////////////////// */
 
+
+@media(max-width:580px){
+    .main-13 .card{
+        margin-bottom: 10px;
+    }
+    .main-13 .card .svgDIV {
+        position: absolute;
+        top: 430px;
+        left: 0px;
+        right: 0px;
+    }
+}
+/* ///////////////// */
 @media(max-width:450px) {
     .main-13 .card .svgDIV {
         position: absolute;
@@ -2093,9 +2109,7 @@ footer .call h6 span {
 }
 
 
-/* ///////////////// */
-
-
+/* /////////////// */
 @media(max-width:380px) {
     .main-1 .text h3 {
         font-size: 25px;
