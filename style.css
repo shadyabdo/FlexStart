@@ -2077,6 +2077,10 @@ footer .call h6 span {
 
 
 @media(max-width:580px){
+    .main-6 .text .icon ,.main-6 .text .tab-pane, .main-6 .text p {
+   
+        padding-left: 7px;
+    }
     .main-6 .nav-link{
         margin-left: 10px;
     }
@@ -2174,6 +2178,10 @@ footer .call h6 span {
         width: 90%;
     }
 
+    .main-6 .text .icon ,.main-6 .text .tab-pane, .main-6 .text p {
+   
+        padding-left: 3px;
+    }
 
     .main-6 .text h3 {
         font-size: 18px;
@@ -2233,7 +2241,7 @@ footer .call h6 span {
 }
 
 /* //////////// */
-@media(max-width:320px) {
+@media(max-width:321px) {
     .main-1 img, .main-5 img, .main-6 img, .main-7 img {
         width: 100%;
     }
@@ -2245,6 +2253,12 @@ footer .call h6 span {
         font-size: 25px;
     }
 
+    .main-6 .text .icon ,.main-6 .text .tab-pane, .main-6 .text p {
+   
+        padding-left: 10px;
+    }
+
+   
     .main-6 .nav-link {
 
         font-size: 15px;
@@ -2266,16 +2280,14 @@ footer .call h6 span {
     
     .main-6 .icon h3 {
         text-align: left;
+        font-size: 17px;
     }
     
-    .main-6 .text h3{
-       
-        text-align: left;
-    }
+   
 
     .main-9 .card .feuture {
-        top: 30px;
-        right: -40px;
+        top: 40px;
+        right: -50px;
     }
 
 
